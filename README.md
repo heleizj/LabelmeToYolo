@@ -3,7 +3,7 @@ YOLO-Mark is not a good tool to use,So we use the tool labelme to get the things
 this program only need one parameter --data_dir.
 this is your derictory which contains the images and the json files  .
 the json files are generated after you use labelme to annotated images.
-the json files contain the information of the polygon, the aim of this program is contvert the json files to the information of bounding boxes which are needed in YOLO training
+the json files contain the information of the polygon, the aim of this program is contvert the json files to the information of bounding boxes which are needed in YOLO training.
 the command is like this "python load_json_pro.py --data_dir D:\your_derictory\"(just a example)
 after running this program you will see a derictrory at your data derictory's parent derictory named 'yolo_need' and a text file named
 'yolo_train.txt' both of them are needed for YOLO training.
